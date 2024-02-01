@@ -56,3 +56,5 @@ driver.maximize_window()
 #preceding-siblings
 preceding_siblings=driver.find_elements(By.XPATH,"//a[contains(text(),'IndusInd Bank Ltd')]/ancestor::tr/preceding-sibling::tr")
 print(len(preceding_siblings))
+
+driver.close()
